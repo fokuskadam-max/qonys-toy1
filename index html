@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Үйлену тойына шақыру</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f3eb;
+  color: #574638;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
+  background:
+    linear-gradient(#f8f3ebcc,#f8f3ebcc),
+    url('background.jpg') center/cover;
+}
+
+.card {
+  max-width: 650px;
+  width: 100%;
+  padding: 55px 25px;
+  border: 1px solid #c5a66b;
+  outline: 5px double #c5a66b;
+  outline-offset: 8px;
+  background: #fffdf8ed;
+  box-shadow: 0 15px 50px #8b735533;
+}
+
+.small {
+  font-size: 12px;
+  letter-spacing: 5px;
+  color: #a58a5d;
+}
+
+.names {
+  font-family: 'Great Vibes', cursive;
+  font-size: clamp(55px, 12vw, 85px);
+  color: #a78953;
+  margin: 30px 0;
+  line-height: 1.2;
+}
+
+.amp {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 45px;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 38px;
+  letter-spacing: 5px;
+  margin: 20px 0;
+  font-weight: 500;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 2;
+  margin: 20px auto;
+  max-width: 450px;
+}
+
+.gold-line {
+  width: 90px;
+  height: 1px;
+  background: #b99a62;
+  margin: 25px auto;
+}
+
+.section {
+  padding: 75px 20px;
+  max-width: 750px;
+  margin: auto;
+}
+
+.section h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 37px;
+  color: #a78953;
+  margin-bottom: 25px;
+}
+
+.date {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 30px;
+  margin: 15px 0;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.time-box {
+  background: #fffdf8;
+  border: 1px solid #c5a66b;
+  padding: 18px 12px;
+  min-width: 75px;
+}
+
+.time-box strong {
+  display: block;
+  font-size: 27px;
+  color: #a78953;
+}
+
+.time-box span {
+  font-size: 10px;
+}
+
+.photo {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  max-height: 520px;
+  object-fit: cover;
+  border: 7px solid white;
+  box-shadow: 0 8px 25px #0002;
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 27px;
+  margin: 10px 
